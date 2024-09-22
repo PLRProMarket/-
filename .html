@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> معلومات تسجيل الدخول الى رانكرفوكس التي يوجد فيها كل ادوات </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        .info {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .info input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+        .copy-btn {
+            margin-left: 10px;
+            padding: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .copy-btn:hover {
+            background-color: #45a049;
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;https://rankerfox.com/login/https://rankerfox.com/login/
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Login Information</h2>
+
+    <div class="info">
+        <label for="username">Username:</label>
+        <input type="text" id="username" value="PLR Pro Marjet" readonly>
+        <button class="copy-btn" onclick="copyText('username')">Copy</button>
+    </div>
+    
+    <div class="info">
+        <label for="password">Password:</label>
+        <input type="text" id="password" value="S7ekHpv9@uwcHjt" readonly>
+        <button class="copy-btn" onclick="copyText('password')">Copy</button>
+    </div>
+
+    <!-- رابط المنصة -->
+    <a href="https://rankerfox.com/login/" target="_blank">SEO سجل الدخول وسوف تظهر لك ادوات </a>
+</div>
+
+<script>
+    function copyText(elementId) {
+        // احصل على العنصر المراد نسخه
+        var copyText = document.getElementById(elementId);
+        
+        // نسخ النص من الحقل
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); // للأجهزة المحمولة
+        
+        // نسخ النص إلى الحافظة
+        navigator.clipboard.writeText(copyText.value);
+        
+        // تنبيه المستخدم بأنه تم النسخ
+        alert(elementId.charAt(0).toUpperCase() + elementId.slice(1) + " copied: " + copyText.value);
+    }
+</script>
+
+</body>
+</html>
